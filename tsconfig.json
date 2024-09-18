@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "@m1rn/tsconfig/node",
+    "@m1rn/tsconfig/strict"
+  ],
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "compilerOptions": {
+    "noEmit": true
+  }
+}
