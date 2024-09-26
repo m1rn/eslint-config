@@ -37,17 +37,17 @@
     }
   },
   "dependencies": {
-    "@eslint-react/eslint-plugin": "^1.14.1",
+    "@eslint-react/eslint-plugin": "^1.14.2",
     "@eslint/markdown": "^6.1.0",
     "@html-eslint/eslint-plugin": "^0.27.0",
     "@html-eslint/parser": "^0.27.0",
     "@stylistic/eslint-plugin": "^2.8.0",
-    "@typescript-eslint/eslint-plugin": "^8.6.0",
-    "@typescript-eslint/parser": "^8.6.0",
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
     "eslint-merge-processors": "^0.1.0",
-    "eslint-plugin-import-x": "^4.2.1",
+    "eslint-plugin-import-x": "^4.3.0",
     "eslint-plugin-jsonc": "^2.16.0",
-    "eslint-plugin-perfectionist": "^3.6.0",
+    "eslint-plugin-perfectionist": "^3.7.0",
     "eslint-plugin-unicorn": "^55.0.0",
     "globals": "^15.9.0",
     "jsonc-eslint-parser": "^2.4.0"
@@ -55,8 +55,8 @@
   "devDependencies": {
     "@eslint/config-inspector": "^0.5.4",
     "@m1rn/tsconfig": "^1.0.0",
-    "@types/node": "^22.5.5",
-    "eslint": "^9.10.0",
+    "@types/node": "^22.7.3",
+    "eslint": "^9.11.1",
     "pkgroll": "^2.5.0",
     "typescript": "^5.6.2"
   }
