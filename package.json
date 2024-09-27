@@ -1,7 +1,7 @@
 {
   "name": "@m1rn/eslint-config",
   "description": "ESLint shareable configurations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "license": "MIT",
   "author": "m1rn",
