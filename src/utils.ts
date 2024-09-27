@@ -3,9 +3,9 @@ import type { PathLike } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { cwd } from 'node:process'
 import { fileURLToPath } from 'node:url'
-import type { ESLint, Linter } from 'eslint'
+import type { Linter } from 'eslint'
 import { name as pkgName } from '../package.json'
-import type { AnyArray, AnyFunction, AnyRecord, ESLintConfig, Simplify } from './types'
+import type { AnyArray, AnyFunction, AnyRecord, ESLintConfig, ESLintPlugin, Simplify } from './types'
 
 export function isString(source: unknown): source is string {
   return typeof source === 'string'
@@ -255,7 +255,7 @@ export function renamePlugin<Rename extends string>(
   plugin: AnyRecord,
   rename: Rename
 ) {
-  return deepMerge(plugin as ESLint.Plugin, {
+  return deepMerge(plugin as ESLintPlugin, {
     meta: {
       name: rename
     }
