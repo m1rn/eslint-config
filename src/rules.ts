@@ -329,7 +329,7 @@ export const RULE_JS_STYLE = defineRules({
     'key-spacing': 2,
     'keyword-spacing': 2,
     'linebreak-style': 2,
-    'lines-around-comment': [2, { afterHashbangComment: true }],
+    'lines-around-comment': [2, { afterHashbangComment: true, beforeBlockComment: false }],
     'lines-between-class-members': 2,
     'max-statements-per-line': 2,
     'multiline-ternary': [2, 'always-multiline'],
@@ -501,7 +501,6 @@ export const RULE_TS_BASE = defineRules({
 
 export const RULE_TS_STYLE = defineRules({
   ...defineRules({
-    'lines-around-comment': [2, { allowTypeStart: true }],
     'member-delimiter-style': [
       2,
       {
